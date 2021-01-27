@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.smarteist.autoimageslider.SliderLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/slider"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Abes Tale"
+                android:layout_marginTop="36dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="@dimen/title_size2"
+                android:textColor="@color/textColor"
+                android:fontFamily="@string/bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_college"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_gravity="center_horizontal"
+                android:textSize="@dimen/text_size"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:textColor="@color/textColor"
+                android:fontFamily="@string/light"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:background="@color/darkColor">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="36dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Department"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="30dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@string/bold"/>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#fff">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Computer Science"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:layout_gravity="center_horizontal"
+                            android:textSize="@dimen/text_size0"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:textColor="@color/textColor"
+                            android:layout_margin="8dp"
+                            android:fontFamily="@string/light"/>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/grey"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mechanical Department"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:layout_gravity="center_horizontal"
+                            android:textSize="@dimen/text_size0"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:textColor="@color/textColor"
+                            android:layout_margin="8dp"
+                            android:fontFamily="@string/light"/>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/grey"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Chemistry Department"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:layout_gravity="center_horizontal"
+                            android:textSize="@dimen/text_size0"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:textColor="@color/textColor"
+                            android:layout_margin="8dp"
+                            android:fontFamily="@string/light"/>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/grey"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Physics Department"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:layout_gravity="center_horizontal"
+                            android:textSize="@dimen/text_size0"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:textColor="@color/textColor"
+                            android:layout_margin="8dp"
+                            android:fontFamily="@string/light"/>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/grey"/>
+
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/text_margin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Details"
+                    android:layout_marginTop="36dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="35dp"
+                    android:textColor="@color/textColor"
+                    android:fontFamily="@string/bold"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ABES Engineering College
+19th KM Stone, NH-24,
+Ghaziabad U.P.-201009, India,
+Call : +91-120-7135112, 7135113
+
+"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:textSize="25dp"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:textColor="@color/textColor"
+                    android:fontFamily="@string/light"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    android:src="@drawable/map"
+                    android:scaleType="fitXY"
+                    android:id="@+id/map"
+                    android:layout_marginTop="50dp"/>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</FrameLayout>

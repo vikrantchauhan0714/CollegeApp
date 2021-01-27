@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Abes Portal</string>
+
+    <string name="bold" tools:ignore="ReferenceType">@font/latobold</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/latoregular</string>
+    <string name="light" tools:ignore="ReferenceType">@font/latolight</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <string name="about_college">ABES Engineering College ABESEC (formerly known as Academy of Business and Engineering Sciences) was established in year 2000, situated in Ghaziabad (Uttar Pradesh), NCR, India. under the aegis of “Society for Educational Excellence, Ghaziabad”. It is a self-financed private Engineering Institution approved by All India Council of Technical Education (AICTE), New Delhi and affiliated to Dr. A.P.J. Abdul Kalam Technical University, Lucknow (Uttar Pradesh)[1] (Formerly known as “Uttar Pradesh Technical University, Lucknow – UPTU” , "Gautam Buddha Technical University, Lucknow- GBTU" and "Mahamaya Technical University, Noida - MTU" )</string>
+</resources>

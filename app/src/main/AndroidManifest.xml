@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.collegeapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/abeslogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/abeslogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            />
+        </activity>
+        <activity android:name=".GalleryFullImage" />
+        <activity android:name=".FullImageView" />
+        <activity android:name=".Developer"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".ebook.PdfViewerActivity" />
+        <activity
+            android:name=".ebook.Ebook"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>
